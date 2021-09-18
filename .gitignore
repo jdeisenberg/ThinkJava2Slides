@@ -2,9 +2,6 @@
 *.class
 checkstyle*.jar
 
-# PPTX exports
-*.pptx
-
 # PDF builds
 *.pdf
 
