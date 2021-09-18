@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="37cm" height="17cm" viewBox="-2 -2 723 323" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #e8f4ff" x="0" y="40" width="400" height="120"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="0" y="40" width="400" height="120"/>
+  </g>
+  <g>
+    <rect style="fill: #e8f4ff" x="260" y="0" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="0" width="140" height="40"/>
+  </g>
+  <g>
+    <rect style="fill: #d2e9ff" x="200" y="120" width="360" height="120"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="120" width="360" height="120"/>
+  </g>
+  <g>
+    <rect style="fill: #bcdeff" x="400" y="200" width="320" height="120"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400" y="200" width="320" height="120"/>
+  </g>
+  <g>
+    <rect style="fill: #d2e9ff" x="420" y="80" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="420" y="80" width="140" height="40"/>
+  </g>
+  <g>
+    <rect style="fill: #bcdeff" x="580" y="160" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="580" y="160" width="140" height="40"/>
+  </g>
+  <text font-size="15.8044" style="fill: #000000;text-anchor:start;font-family:Latin Modern Mono;font-style:normal;font-weight:normal" x="17.4" y="66.0388">
+    <tspan x="17.4" y="66.0388">public class Hello {</tspan>
+    <tspan x="17.4" y="85.7944" xml:space="preserve">   public static void main(String[] args) {</tspan>
+    <tspan x="17.4" y="105.55" xml:space="preserve">      System.out.println("Hello, World!");</tspan>
+    <tspan x="17.4" y="125.305" xml:space="preserve">   }</tspan>
+    <tspan x="17.4" y="145.061">}</tspan>
+  </text>
+  <text font-size="15.8044" style="fill: #000000;text-anchor:start;font-family:Latin Modern Roman;font-style:italic;font-weight:normal" x="295.226" y="26.6">
+    <tspan x="295.226" y="26.6">Hello.java</tspan>
+  </text>
+  <text font-size="15.8044" style="fill: #000000;text-anchor:start;font-family:Latin Modern Mono;font-style:normal;font-weight:normal" x="214" y="146.039">
+    <tspan x="214" y="146.039">public class System {</tspan>
+    <tspan x="214" y="165.794" xml:space="preserve">   ...</tspan>
+    <tspan x="214" y="185.55" xml:space="preserve">   public final static PrintStream out;</tspan>
+    <tspan x="214" y="205.305" xml:space="preserve">   ...</tspan>
+    <tspan x="214" y="225.061">}</tspan>
+  </text>
+  <text font-size="15.8044" style="fill: #000000;text-anchor:start;font-family:Latin Modern Roman;font-style:italic;font-weight:normal" x="449.176" y="106.6">
+    <tspan x="449.176" y="106.6">System.java</tspan>
+  </text>
+  <text font-size="15.8044" style="fill: #000000;text-anchor:start;font-family:Latin Modern Mono;font-style:normal;font-weight:normal" x="414.75" y="226.038">
+    <tspan x="414.75" y="226.038">public class PrintStream {</tspan>
+    <tspan x="414.75" y="245.794" xml:space="preserve">   ...</tspan>
+    <tspan x="414.75" y="265.549" xml:space="preserve">   public void println(String x) {</tspan>
+    <tspan x="414.75" y="285.305" xml:space="preserve">   ...</tspan>
+    <tspan x="414.75" y="305.06">}</tspan>
+  </text>
+  <text font-size="15.8044" style="fill: #000000;text-anchor:start;font-family:Latin Modern Roman;font-style:italic;font-weight:normal" x="591.5" y="186.6">
+    <tspan x="591.5" y="186.6">PrintStream.java</tspan>
+  </text>
+</svg>
