@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="607px" preserveAspectRatio="none" style="width:731px;height:607px;" version="1.1" viewBox="0 0 731 607" width="731px" zoomAndPan="magnify"><defs><filter height="300%" id="fw9v08na2mr75" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0045945e9821740a5ca569af52df98bf]
+class Bicycle--><rect fill="#FFFFFF" filter="url(#fw9v08na2mr75)" height="270.6875" id="Bicycle" style="stroke: #000000; stroke-width: 1.5;" width="617" x="51" y="7"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="77" x="321" y="26.9854">Bicycle</text><line style="stroke: #000000; stroke-width: 1.5;" x1="52" x2="667" y1="37.3906" y2="37.3906"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="154" x="57" y="56.376">-color: String</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="198" x="57" y="76.7666">-frameSize: double</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="132" x="57" y="97.1572">-nGears: int</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="187" x="57" y="117.5479">-currentGear: int</text><line style="stroke: #000000; stroke-width: 1.5;" x1="52" x2="667" y1="126.9531" y2="126.9531"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="605" x="57" y="145.9385">+Bicycle(color: String, frameSize: double, nGears: int)</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="68" y="166.3291"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="209" x="57" y="186.7197">+getColor(): String</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="253" x="57" y="207.1104">+getFrameSize(): double</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="187" x="57" y="227.501">+getNGears(): int</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="242" x="57" y="247.8916">+getCurrentGear(): int</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="429" x="57" y="268.2822">+setCurrentGear(int: currentGear): void</text><!--MD5=[d31673c62d531cb1f037ea28f1beb483]
+class ElectricBicycle--><rect fill="#FFFFFF" filter="url(#fw9v08na2mr75)" height="250.2969" id="ElectricBicycle" style="stroke: #000000; stroke-width: 1.5;" width="705" x="7" y="338"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="165" x="277" y="357.9854">ElectricBicycle</text><line style="stroke: #000000; stroke-width: 1.5;" x1="8" x2="711" y1="368.3906" y2="368.3906"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="231" x="13" y="387.376">-batteryCapacity: int</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="242" x="13" y="407.7666">-currentCharge: double</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="187" x="13" y="428.1572">-maxSpeed: double</text><line style="stroke: #000000; stroke-width: 1.5;" x1="8" x2="711" y1="437.5625" y2="437.5625"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="693" x="13" y="456.5479">+ElectricBicycle(color: String, frameSize: double, nGears: int,</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="429" x="13" y="476.9385">batteryCapacity: int, maxSpeed: double)</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="24" y="497.3291"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="286" x="13" y="517.7197">+getBatteryCapacity(): int</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="297" x="13" y="538.1104">+getCurrentCharge(): double</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="506" x="13" y="558.501">+setCurrentCharge(currentCharge: double): void</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="242" x="13" y="578.8916">+getMaxSpeed(): double</text><!--MD5=[c6dfb1a377e29bc4ef0d895fc6dc308f]
+reverse link Bicycle to ElectricBicycle--><path d="M359.5,298.26 C359.5,311.59 359.5,324.96 359.5,338 " fill="none" id="Bicycle&lt;-ElectricBicycle" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="none" points="352.5,298.11,359.5,278.11,366.5,298.11,352.5,298.11" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[720845bfbbfc6b8ea6d7fe904f1c2fd4]
+@startuml
+skinparam classbackgroundcolor #ffffff
+skinparam classarrowcolor #000000
+skinparam classdiamondbackgroundcolor #ffffff
+skinparam classdiamondbordercolor #000000
+skinparam classbordercolor #000000
+skinparam classfontsize 18
+skinparam classfontname "Liberation Mono"
+skinparam classattributefontsize 18
+skinparam classattributefontname "Liberation Mono"
+skinparam classAttributeIconSize 0
+hide circle
+
+Bicycle <|- - ElectricBicycle
+
+class Bicycle {
+    - color: String 
+    - frameSize: double
+    - nGears: int
+    - currentGear: int
+    
+    + Bicycle(color: String, frameSize: double, nGears: int)
+    
+    + getColor(): String 
+    + getFrameSize(): double
+    + getNGears(): int
+    + getCurrentGear(): int
+    + setCurrentGear(int: currentGear): void
+}
+
+class ElectricBicycle {
+    - batteryCapacity: int
+    - currentCharge: double
+    - maxSpeed: double
+    
+    + ElectricBicycle(color: String, frameSize: double, nGears: int,
+       batteryCapacity: int, maxSpeed: double)
+    
+    + getBatteryCapacity(): int
+    + getCurrentCharge(): double
+    + setCurrentCharge(currentCharge: double): void
+    + getMaxSpeed(): double
+}
+
+
+@enduml
+
+PlantUML version 1.2020.14(Sat Jun 20 07:14:34 PDT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

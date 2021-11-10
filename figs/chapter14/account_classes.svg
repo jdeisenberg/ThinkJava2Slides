@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="217px" preserveAspectRatio="none" style="width:293px;height:217px;" version="1.1" viewBox="0 0 293 217" width="293px" zoomAndPan="magnify"><defs><filter height="300%" id="fs32vmu8yay34" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[f9a29335b499db729be669fd1bd54958]
+class Account--><rect fill="#FEFECE" filter="url(#fs32vmu8yay34)" height="23.5938" id="Account" style="stroke: #A80036; stroke-width: 1.5;" width="55" x="106.5" y="91"/><text fill="#000000" font-family="Liberation Mono" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="109.5" y="105.9902">Account</text><!--MD5=[349f039c2061beb49da3e58edbd04752]
+class SavingsAccount--><rect fill="#FEFECE" filter="url(#fs32vmu8yay34)" height="23.5938" id="SavingsAccount" style="stroke: #A80036; stroke-width: 1.5;" width="104" x="7" y="175"/><text fill="#000000" font-family="Liberation Mono" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="98" x="10" y="189.9902">SavingsAccount</text><!--MD5=[ef5ba532991e8ebebd1c44d6dd15931a]
+class CreditCardAccount--><rect fill="#FEFECE" filter="url(#fs32vmu8yay34)" height="23.5938" id="CreditCardAccount" style="stroke: #A80036; stroke-width: 1.5;" width="125" x="149.5" y="175"/><text fill="#000000" font-family="Liberation Mono" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="119" x="152.5" y="189.9902">CreditCardAccount</text><!--MD5=[2ce0c9fb7f55b1e256ab28a8ea6b25ec]
+class Customer--><rect fill="#FEFECE" filter="url(#fs32vmu8yay34)" height="23.5938" id="Customer" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="103" y="7"/><text fill="#000000" font-family="Liberation Mono" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="106" y="21.9902">Customer</text><!--MD5=[f662f69f3f8901b144fefdc31cb38f1a]
+reverse link Account to SavingsAccount--><path d="M110,130.25 C96.21,145.31 79.63,163.45 69.19,174.85 " fill="none" id="Account&lt;-SavingsAccount" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="105.22,125.09,123.89,115.06,115.55,134.54,105.22,125.09" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ad5b9d2d2ea1ade7901157af2916840c]
+reverse link Account to CreditCardAccount--><path d="M158.5,129.76 C172.93,144.92 190.43,163.33 201.4,174.85 " fill="none" id="Account&lt;-CreditCardAccount" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="153.23,134.37,144.52,115.06,163.38,124.73,153.23,134.37" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[21cfb2b851e490ed59dc6f2f8039176f]
+reverse link Customer to Account--><path d="M134,44.32 C134,59.74 134,78.96 134,90.85 " fill="none" id="Customer&lt;-Account" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="134,31.06,130,37.06,134,43.06,138,37.06,134,31.06" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b7ae88e53160607ff4622c3b27c19e7e]
+reverse link Customer to SavingsAccount--><path d="M118.16,41.7 C108.74,55.35 97.09,73.6 89,91 C75.5,120.01 65.85,156.7 61.53,174.83 " fill="none" id="Customer&lt;-SavingsAccount" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="125.72,31.04,118.9862,33.6198,118.7776,40.8279,125.5114,38.2481,125.72,31.04" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[da6d64096408c3746eb4289302feaf07]
+reverse link Customer to CreditCardAccount--><path d="M149.66,41.79 C159.02,55.46 170.66,73.72 179,91 C193.04,120.09 204.02,156.75 209.03,174.84 " fill="none" id="Customer&lt;-CreditCardAccount" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="142.17,31.09,142.3325,38.2993,149.0498,40.922,148.8872,33.7128,142.17,31.09" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d31f379ba66ff36d0fb9bc0b07c5e19a]
+@startuml
+skinparam classfontname "Liberation Mono"
+skinparam classattributefontsize 18
+skinparam classattributefontname "Liberation Mono"
+skinparam classAttributeIconSize 0
+hide empty members
+hide circle
+Account <|- - SavingsAccount
+Account <|- - CreditCardAccount
+
+Customer *- - Account
+Customer *- - SavingsAccount
+Customer *- - CreditCardAccount
+@enduml
+
+PlantUML version 1.2020.14(Sat Jun 20 07:14:34 PDT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

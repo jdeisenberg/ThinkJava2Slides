@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="688px" preserveAspectRatio="none" style="width:599px;height:688px;" version="1.1" viewBox="0 0 599 688" width="599px" zoomAndPan="magnify"><defs><filter height="300%" id="f17c1bkop72qa9" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[44a1b4afaef76c16e6c9ec4990ad0c8d]
+class Item--><rect fill="#FFFFFF" filter="url(#f17c1bkop72qa9)" height="331.8594" id="Item" style="stroke: #000000; stroke-width: 1.5;" width="529" x="29" y="7"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="44" x="271.5" y="26.9854">Item</text><line style="stroke: #000000; stroke-width: 1.5;" x1="30" x2="557" y1="37.3906" y2="37.3906"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="143" x="35" y="56.376">-name: String</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="132" x="35" y="76.7666">-sku: String</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="154" x="35" y="97.1572">-price: double</text><line style="stroke: #000000; stroke-width: 1.5;" x1="30" x2="557" y1="106.5625" y2="106.5625"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="517" x="35" y="125.5479">+Item(name: String, sku: String, price: double)</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="46" y="145.9385"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="198" x="35" y="166.3291">+getName(): String</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="187" x="35" y="186.7197">+getSku(): String</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="209" x="35" y="207.1104">+getPrice(): double</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="319" x="35" y="227.501">+setPrice(double price): void</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="46" y="247.8916"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="341" x="35" y="268.2822">+purchase(int quantity): double</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="46" y="288.6729"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="209" x="35" y="309.0635">+toString(): String</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="319" x="35" y="329.4541">+equals(other: Item): boolean</text><!--MD5=[301b480381541e38e12f872ea0d04752]
+class SaleItem--><rect fill="#FFFFFF" filter="url(#f17c1bkop72qa9)" height="270.6875" id="SaleItem" style="stroke: #000000; stroke-width: 1.5;" width="573" x="7" y="399"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="88" x="249.5" y="418.9854">SaleItem</text><line style="stroke: #000000; stroke-width: 1.5;" x1="8" x2="579" y1="429.3906" y2="429.3906"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="187" x="13" y="448.376">-discount: double</text><line style="stroke: #000000; stroke-width: 1.5;" x1="8" x2="579" y1="457.7813" y2="457.7813"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="561" x="13" y="476.7666">+SaleItem(name: String, sku: String, price: double,</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="187" x="13" y="497.1572">discount: double)</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="24" y="517.5479"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="242" x="13" y="537.9385">+getDiscount(): double</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="396" x="13" y="558.3291">+setDiscount(discount: double): void</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="24" y="578.7197"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="341" x="13" y="599.1104">+purchase(int quantity): double</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0" x="24" y="619.501"/><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="209" x="13" y="639.8916">+toString(): String</text><text fill="#000000" font-family="Liberation Mono" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="363" x="13" y="660.2822">+equals(other: SaleItem): boolean</text><!--MD5=[c648133ea2a249f9d63274eab41a7ffb]
+reverse link Item to SaleItem--><path d="M293.5,359.25 C293.5,372.58 293.5,385.88 293.5,398.83 " fill="none" id="Item&lt;-SaleItem" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="none" points="286.5,359.02,293.5,339.02,300.5,359.02,286.5,359.02" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[7dc4924624efe89c42c85ee05190fb39]
+@startuml
+skinparam classbackgroundcolor #ffffff
+skinparam classarrowcolor #000000
+skinparam classdiamondbackgroundcolor #ffffff
+skinparam classdiamondbordercolor #000000
+skinparam classbordercolor #000000
+skinparam classfontsize 18
+skinparam classfontname "Liberation Mono"
+skinparam classattributefontsize 18
+skinparam classattributefontname "Liberation Mono"
+skinparam classAttributeIconSize 0
+hide circle
+
+Item <|- - SaleItem
+
+class Item {
+    - name: String 
+    - sku: String
+    - price: double
+    
+    + Item(name: String, sku: String, price: double)
+    
+    + getName(): String 
+    + getSku(): String
+    + getPrice(): double
+    + setPrice(double price): void
+    
+    + purchase(int quantity): double
+    
+    + toString(): String
+    + equals(other: Item): boolean
+}
+
+class SaleItem {
+    - discount: double
+    
+    + SaleItem(name: String, sku: String, price: double,
+       discount: double)
+    
+    + getDiscount(): double
+    + setDiscount(discount: double): void
+    
+    + purchase(int quantity): double
+    
+    + toString(): String
+    + equals(other: SaleItem): boolean
+}
+
+
+@enduml
+
+PlantUML version 1.2020.14(Sat Jun 20 07:14:34 PDT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
